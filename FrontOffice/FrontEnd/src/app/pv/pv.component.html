@@ -1,0 +1,16 @@
+<!-- pv.component.html -->
+
+<!-- <h1>PV List</h1>
+<ul>
+  <li *ngFor="let pv of pvs">
+    <div>Date: {{ pv.date | date }}</div>
+    <div>Contenu: {{ pv.contenu }}</div>
+  </li>
+</ul> -->
+<h1>PVs</h1>
+<table>
+  <div *ngFor="let pv of pvs">
+    <td class="date">{{ pv.date | date }}</td>
+    <td class="contenu">{{ pv.contenu }}</td>
+  </div>
+</table>

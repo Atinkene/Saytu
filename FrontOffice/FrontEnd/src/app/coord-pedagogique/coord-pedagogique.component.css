@@ -1,0 +1,63 @@
+/* Ajoutez vos styles CSS pour le composant ici si nécessaire */
+nav {
+  position: fixed;
+  top: 0;
+left: 0;
+width: 100%;
+  background-color: rgba(0, 197, 0, 0.8);
+  padding: 0px;
+z-index: 0    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 70px;
+    margin-left: 100px;
+        
+  }
+
+  button {
+    font-size: 25px;
+    width: 200px;
+    height: 80px;
+    border: rgb(1, 228, 1);
+    background-color: rgb(60, 226, 60);
+    border-radius: 20px;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+    
+  }
+
+  section {
+    margin-top: 100%;
+  }
+  
+  #rapport {
+     padding-top: 5%;
+    text-align: center;
+  }
+  #pv {
+    margin-bottom: 70%;
+    padding-top: 5%;
+    text-align: center;
+  }
+  #rapportform {
+    margin-bottom: 70%;
+    padding-top: 5%;
+    text-align: center;
+  }
+  #pvform {
+    margin-bottom: 70%;
+    padding-top: 5%;
+    text-align: center;
+  }

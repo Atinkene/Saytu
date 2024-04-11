@@ -1,0 +1,45 @@
+<!-- upplanning-form.component.html -->
+
+<form [formGroup]="upplanningForm" (ngSubmit)="onSubmit()">
+  <h1>Mettre A Jour AVIS</h1>
+    <!-- <label for="className">Class Name:</label> -->
+    <input type="text" formControlName="className" id="className" placeholder="Classe"><br>
+    
+    <label for="jour">Jour :</label>
+    <select formControlName="jour" id="jour">
+      <option value="Lundi">Lundi</option>
+      <option value="Mardi">Mardi</option>
+      <option value="Mercredi">Mercredi</option>
+      <option value="Jeudi">Jeudi</option>
+      <option value="Vendredi">Vendredi</option>
+      <option value="Samedi">Samedi</option>
+      <option value="Dimanche">Dimanche</option>
+    </select><br>
+    
+    <label for="heure">Heure:</label>
+    <select formControlName="heure" id="heure">
+      <option value="08H-10H">08H-10H</option>
+      <option value="10H-12H">10H-12H</option>
+      <option value="12H-14H30">12H-14H30</option>
+      <option value="14H30-16H30">14H30-16H30</option>
+      <option value="16H30-18H30">16H30-18H30</option>
+    </select><br>
+    
+    <!-- <label for="nomCours">Nom du Cours:</label> -->
+    <input type="text" formControlName="nomCours" id="nomCours" placeholder="Nom du Cours"><br>
+    
+    <!-- <label for="salle">Salle:</label> -->
+    <input type="text" formControlName="salle" id="salle" placeholder="Salle"><br>
+    
+    <!-- <label for="prof">Prof:</label> -->
+    <input type="text" formControlName="prof" id="prof" placeholder="Proffesseur"><br>
+    
+    <label for="statusCours">Status du Cours:</label>
+    <select formControlName="statusCours" id="statusCours">
+      <option value="YES">YES</option>
+      <option value="NO">NO</option>
+    </select><br>
+    
+    <button type="submit">Update Planning</button>
+  </form>
+  

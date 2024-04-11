@@ -1,0 +1,12 @@
+<!-- avis-form.component.html -->
+
+<!-- <div *ngFor="let avis of avisList">
+  <p>{{ avis.contenu }} - {{ avis.classe }}</p>
+</div> -->
+
+<form [formGroup]="avisForm" (ngSubmit)="submitAvis()">
+  <h1>ajouter AVIS</h1>
+  <input type="text" formControlName="classe" placeholder="Classe" id="classe"><br>
+  <textarea formControlName="contenu" placeholder="Contenu" id="contenu"></textarea><br>
+  <button type="submit" [disabled]="avisForm.invalid">Ajouter Avis</button>
+</form>

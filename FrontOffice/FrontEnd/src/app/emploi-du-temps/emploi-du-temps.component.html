@@ -1,0 +1,23 @@
+<!-- emploi-du-temps.component.html -->
+<div>
+  <label for="class">Classe:</label>
+  <input type="text" placeholder="CLASSE" [(ngModel)]="selectedClass" (keyup.enter)="fetchPlanningData()">
+</div>
+
+<table>
+  <tr>
+    <th>Horaires</th>
+    <th *ngFor="let day of daysOfWeek">{{ day }}</th>
+  </tr>
+  <tr *ngFor="let timeSlot of timeSlots; let i = index">
+    <td>{{ timeSlot }}</td>
+    <td *ngFor="let course of planningData[i]">
+      <div [ngClass]="{'done': course.statusCours === 'YES'}">
+        <p>{{ course.nomCours }}</p>
+        <p>{{ course.prof }}</p>
+        <p>{{ course.salle }}</p>
+        <button (click)="markAsDone(course.jour, course.heure)">Fait</button>
+      </div>
+    </td>
+  </tr>
+</table>

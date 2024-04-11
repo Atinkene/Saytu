@@ -1,0 +1,14 @@
+.date {
+    border: 4px solid #ccc;
+    width: 400px;
+    height: 65px;
+    
+
+}
+.contenu {
+    border: 4px solid #ccc;
+    width: 1400px;
+    height: 65px; 
+    text-align: start;
+    
+}

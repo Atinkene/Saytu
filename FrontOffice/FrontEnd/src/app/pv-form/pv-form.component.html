@@ -1,0 +1,8 @@
+<!-- pv-form.component.html -->
+
+<form (ngSubmit)="onSubmit()">
+    <label for="contenu"><h1>Dresser un PV</h1></label><br>
+    <textarea id="contenu" name="contenu" [(ngModel)]="contenu" required placeholder="contenu"></textarea><br><br>
+    <button type="submit">Créer PV</button>
+  </form>
+  

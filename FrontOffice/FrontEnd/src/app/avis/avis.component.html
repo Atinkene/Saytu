@@ -1,0 +1,25 @@
+<!-- Dans le template HTML de votre composant Angular -->
+<div>
+  <label for="classInput">Classe:</label>
+  <input type="text" id="classInput" placeholder="CLASSE" [(ngModel)]="classValue" (keyup.enter)="fetchAvis()">
+</div>
+
+<div *ngIf="loading">
+  Chargement en cours...
+</div>
+
+<div *ngIf="error">
+  {{ error }}
+</div>
+<table>
+
+  <tr>
+    <div *ngIf="!loading && !error">
+      <div *ngFor="let avi of avis">
+        <th class="date"><p>{{ avi.date }}</p></th>
+        <th class="contenu"><p>{{ avi.contenu }}</p></th>        
+        <!-- Affichez d'autres propriétés de l'avis selon vos besoins -->
+      </div>
+    </div>
+  </tr>
+</table>

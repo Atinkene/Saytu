@@ -1,0 +1,17 @@
+<nav>
+    <ul>
+      <li><button (click)="scrollToRapport()">Rapport</button></li>
+      <!-- <li><button><a routerLink="/rapport">Rapport</a></button></li> -->
+      <li><button (click)="scrollToRapportform()">Etablir Rapport</button></li>
+      <!-- <li><button><a routerLink="/rapport-form">Etablir Rapport</a></button></li>    -->
+      <li><button><a routerLink="/login">Déconnexion</a></button></li>
+    </ul>
+</nav>
+<section id="rapport" #rapport>
+  <app-rapport></app-rapport>
+</section>
+
+<section id="rapportform" #rapportform>
+  <app-rapport-form></app-rapport-form>
+</section>
+  

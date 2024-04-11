@@ -1,0 +1,15 @@
+<nav>
+    <ul>
+      <li><button (click)="scrollToPlanning()">Planning</button></li>
+    <li><button (click)="scrollToAvis()">Avis</button></li>
+      <li><button><a routerLink="/login">Déconnexion</a></button></li>
+    </ul>
+  </nav>
+  
+  <section id="planning" #planning>
+    <app-emploi-du-temps></app-emploi-du-temps>
+  </section>
+  
+  <section id="avis" #avis>
+    <app-avis></app-avis>
+  </section>

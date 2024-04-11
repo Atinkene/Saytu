@@ -1,0 +1,16 @@
+<nav>
+    <ul>
+      <li><button (click)="scrollToAvis()">Ajouter Avis</button></li>
+      <!-- <li><button><a routerLink="/avis">Ajouter Avis</a></button></li> -->
+      <li><button (click)="scrollToUpplanning()">Mettre A Jour Planning</button></li>
+      <!-- <li><button><a routerLink="/upplanning">Mettre A Jour Planning</a></button></li> -->
+      <li><button><a routerLink="/login">Déconnexion</a></button></li>
+    </ul>
+</nav>
+<section id="avis" #avis>
+  <app-avis-form></app-avis-form>
+</section>
+
+<section id="upplanning" #upplanning>
+  <app-upplanning-form></app-upplanning-form>
+</section>

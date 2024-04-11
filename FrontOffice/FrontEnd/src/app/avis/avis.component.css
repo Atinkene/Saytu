@@ -1,0 +1,16 @@
+th {
+    border: 4px solid #ccc;
+}
+#classInput {
+    height: 30px;
+    width: 400px;
+}
+
+.date {
+    width: 400px;
+    height: 40px;
+}
+.contenu {
+    width: 1300px;
+    height: 40px;
+}

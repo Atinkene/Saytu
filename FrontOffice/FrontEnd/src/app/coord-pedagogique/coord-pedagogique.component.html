@@ -1,0 +1,29 @@
+<nav>
+    <ul>
+      <li><button (click)="scrollToRapport()">Rapport</button></li>
+      <!-- <li><button><a routerLink="/rapport">Rapport</a></button></li> -->
+      <li><button (click)="scrollToPv()">Pv</button></li>
+      <!-- <li><button><a routerLink="/pv">Pv</a></button></li> -->
+      <li><button (click)="scrollToRapportform()">Etablir Rapport</button></li>      
+      <!-- <li><button><a routerLink="/rapport-form">Etablir Rapport</a></button></li> -->
+      <li><button (click)="scrollToPvform()">Dresser Pv</button></li>      
+      <!-- <li><button><a routerLink="/pv-form">Dresser Pv</a></button></li> -->
+      <li><button><a routerLink="/login">Déconnexion</a></button></li>
+    </ul>
+</nav>
+
+<section id="rapport" #rapport>
+  <app-rapport></app-rapport>
+</section>
+
+<section id="pv" #pv>
+  <app-pv></app-pv>
+</section>
+
+<section id="rapportform" #rapportform>
+  <app-rapport-form></app-rapport-form>
+</section>
+
+<section id="pvform" #pvform>
+  <app-pv-form></app-pv-form>
+</section>

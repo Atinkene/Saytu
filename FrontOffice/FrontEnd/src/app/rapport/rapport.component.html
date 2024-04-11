@@ -1,0 +1,15 @@
+<!-- <ul>
+    <li *ngFor="let rapport of rapports">
+      <p>{{ rapport.contenu }}</p>
+      <p>{{ rapport.date }}</p>
+    </li>
+  </ul> -->
+  <h1>Rapports</h1>
+<table>
+  <tr>  
+    <div *ngFor="let rapport of rapports">
+      <td><p class="date">{{ rapport.date }}</p></td>
+      <td><p class="contenu">{{ rapport.contenu }}</p></td>
+    </div>
+  </tr>
+</table>

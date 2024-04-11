@@ -1,0 +1,41 @@
+#className {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#jour {
+    width: 370px;
+    height: 25px;
+    margin-bottom: 20px;  
+}
+#heure {
+    width: 370px;
+    height: 25px;
+    margin-bottom: 20px;  
+}
+#nomCours {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#salle {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#prof {
+    width: 400px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+#statusCours {
+    width: 310px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 450px;
+    height: 450px;
+    border: 4px solid black;
+}

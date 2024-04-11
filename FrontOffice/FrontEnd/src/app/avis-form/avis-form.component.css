@@ -1,0 +1,10 @@
+#classe {
+   width: 800px; 
+   height: 25px;
+   border: 2px solid black;
+   margin-bottom: 20px;
+}
+#contenu {
+    width: 800px;
+    height: 600px;
+}
