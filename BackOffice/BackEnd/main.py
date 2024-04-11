@@ -1,9 +1,9 @@
 import sys
 import os
-import mysql.connector
+import mysql.connector # type: ignore
 import hashlib
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QMessageBox, QLabel
-from PyQt5.uic import loadUi
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget, QMessageBox, QLabel # type: ignore
+from PyQt5.uic import loadUi # type: ignore
 
 # Obtenir le chemin absolu du répertoire contenant le script Python
 script_dir = os.path.dirname(os.path.abspath(__file__))
