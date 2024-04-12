@@ -31,7 +31,7 @@ const routes: Routes = [
   { path: 'resp_pedagogique', component: RespPedagogiqueComponent },
   { path: 'coord_pedagogique', component: CoordPedagogiqueComponent },
   { path: 'equipe_pedagogique', component: EquipePedagogiqueComponent },
-  { path: 'chef-departement', component: ChefDepartementComponent },
+  { path: 'chef_departement', component: ChefDepartementComponent },
   { path: 'dir-etude', component: DirEtudeComponent},
 ];
 

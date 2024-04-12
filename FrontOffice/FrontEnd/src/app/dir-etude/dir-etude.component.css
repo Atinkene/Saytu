@@ -6,7 +6,7 @@ left: 0;
 width: 100%;
   background-color: rgba(0, 197, 0, 0.8);
   padding: 0px;
-z-index: 0;       
+z-index: 0;    
   }
   
   ul {
@@ -17,8 +17,8 @@ z-index: 0;
   
   li {
     display: inline;
-    margin-right: 70px;
-    margin-left: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
         
   }
 
@@ -40,7 +40,13 @@ z-index: 0;
   section {
     margin-top: 120px;
   }
+  #rapport {
+    padding-top: 5%;
+    text-align: center;
+  }
   #pv {
-    margin-top: 100%;
+    margin-bottom: 70%;
+    padding-top: 5%; 
+    text-align: center;
   }
   

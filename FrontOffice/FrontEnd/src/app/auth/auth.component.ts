@@ -30,8 +30,8 @@ export class AuthComponent {
               this.router.navigate(['/coord_pedagogique'])
             }else if (response.status === 'equipe_pedagogique') {
               this.router.navigate(['/equipe_pedagogique'])
-            }else if (response.status === 'chef-departement') {
-              this.router.navigate(['/chef-departement'])
+            }else if (response.status === 'chef_departement') {
+              this.router.navigate(['/chef_departement'])
             }else if (response.status === 'dir-etude') {
               this.router.navigate(['/dir-etude'])
             }
