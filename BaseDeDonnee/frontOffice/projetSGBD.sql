@@ -18,7 +18,6 @@ INSERT INTO Avis (contenu, date, class) VALUES
 ('sadddd', '2024-04-08 18:57:34', 'bbb'),
 ('Gb', '2024-04-08 20:21:00', 'q'),
 ('Ceci est un troiseme avis Loren Ipdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd', '2024-04-08 21:07:13', 'GLSI-AA'),
-('fuck', '2024-04-08 21:09:32', 'se'),
 ('wiwiwiwiw', '2024-04-10 21:25:05', 'GLSI-B'),
 ('arphan Bodian', '2024-04-10 23:58:58', 'GLSI-B'),
 ('bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb', '2024-04-11 15:20:11', 'GLSI-A'),
@@ -76,7 +75,6 @@ INSERT INTO Pv (contenu, date) VALUES
 ('hello', '2024-04-06 15:24:34'),
 ('hello', '2024-04-06 15:25:31'),
 ('helloooooooooooooooooo', '2024-04-06 20:27:15'),
-('fuckDaShit', '2024-04-08 22:49:29'),
 ('hellllllllllllllllllllllllllllllllo', '2024-04-11 00:08:51'),
 ('mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm', '2024-04-11 15:35:32'),
 ('helloooooooooooooooooo', '2024-04-11 15:46:08');
